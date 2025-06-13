@@ -8,7 +8,7 @@ export const GET = async()=>{
     console.log("heyy iam in route2") 
     // await connectToDb();
     // const posts= await Post.find();
-    console.log(posts);
+    // console.log(posts);
     // return NextResponse.json(posts);
 }catch(error){
     console.log(error);
