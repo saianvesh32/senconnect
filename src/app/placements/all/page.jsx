@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from './all.module.css';
-import ViewBtn from '../../components/ViewBtn/ViewBtn';
+// import ViewBtn from '../../components/ViewBtn/ViewBtn';
 
 const internships = [
   { companyName: 'Company A', arrivalDate: '2024-09-01' },
@@ -30,7 +30,7 @@ const Page = () => {
               <td className="py-2 px-4 pl-[130px]">{internship.arrivalDate}</td>
               <td className="py-2 px-4">
                 <div>
-                  <ViewBtn/>
+                  {/* <ViewBtn/> */}
                 </div>
               </td>
             </tr>

@@ -1,6 +1,6 @@
 
 
-import AdminUsers from '../../components/adminUsers/AdminUsers';
+// import AdminUsers from '../../components/adminUsers/AdminUsers';
 import { getUsers } from '../../lib/data';
 
 const Page = async () => {

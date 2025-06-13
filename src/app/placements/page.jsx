@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import ViewBtn from "../../components/ViewBtn/ViewBtn";
+// import ViewBtn from "../../components/ViewBtn/ViewBtn";
 // Custom Tabs Component
 // const CustomTabs = ({ tabs, activeTab, onTabChange }) => {
 //   return (
@@ -81,7 +81,7 @@ const Placements = () => {
                 <td className="py-2 px-4 pl-[50px]">{filteredInternship.gender}</td>
                 <td className="py-2 px-4">
                   <div>
-                    <ViewBtn/>
+                    {/* <ViewBtn/> */}
                   </div>
                 </td>
               </tr>
