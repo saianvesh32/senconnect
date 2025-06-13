@@ -112,7 +112,7 @@
 "use client";
 // import Link from "next/link";
 // import styles from "./links.module.css"; // You can still use this for custom styles if needed
-// import NavLink from "./navLinks/navLinks";
+import NavLink from "./navLinks/navLinks";
 import { useState } from "react";
 import Image from "next/image";
 import { BellIcon } from "@heroicons/react/outline"; // Tailwind heroicons for notifications
