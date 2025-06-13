@@ -1,6 +1,6 @@
 import Image from "next/image"
 import styles from "./about.module.css"
-import Temp  from "../../components/temp/page"
+import Temp  from "../../components/Temp/page"
 
 export const metadata = {
   title: "About Page",
